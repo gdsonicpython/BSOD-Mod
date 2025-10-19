@@ -1,0 +1,41 @@
+{
+	"geode": "4.8.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "hatenal.bsod_mod",
+	"name": "BSOD mod",
+	"version": "v1.0.0",
+	"developer": "hatenal",
+	"description": "Adds a BSOD to GD with a 1 in 1 million (default) chance every second",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"resources": {
+        "spritesheets": {
+			"BSODSheet": [
+            	"resources/*.png"
+			]
+		},
+		"fonts": {
+			"Segoe_UI_This": {
+				"path": "resources/segoeuithis.ttf",
+				"size": 80
+			}
+		}
+    },
+	"settings": {
+		"BSOD-rate": {
+			"type": "int",
+			"default": 1000000,
+			"min": 100,
+			"max": 10000000,
+			"name": "BSOD Rate",
+			"description": "The chance of GD to BSOD (1 in ?)"
+		}
+	},
+	"tags": ["universal", "joke"]
+}
