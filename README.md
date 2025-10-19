@@ -1,7 +1,7 @@
 # BSODmod
 This mod creates a Blue Screen for Geometry Dash.
 
--# This Mod *Technically* doesn't make GD BSOD, the name is just for rhyming
+This Mod *Technically* doesn't make GD BSOD, the name is just for rhyming
 
 <img src="logo.png" width="150" alt="the mod's logo" />
 
